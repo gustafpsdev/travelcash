@@ -1,5 +1,7 @@
 # TravelCash — Dashboard Financeiro para Viagens
 
+![Node.js](https://img.shields.io/badge/Node.js-18+-58765A?logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-REST-68717A?logo=express&logoColor=white) ![Status](https://img.shields.io/badge/status-acadêmico-68717A)
+
 Aplicação full-stack de controle financeiro de viagens: um **dashboard** que reproduz a
 tela de referência do projeto e um **backend REST** completo com CRUD para todos os
 recursos. Frontend em HTML/CSS/JS puro (sem framework), backend em Node.js + Express e
@@ -177,3 +179,22 @@ A persistência em JSON foi escolhida para o projeto rodar sem configuração de
 deixar clara a separação entre rota, armazenamento, regra de negócio e frontend. O mesmo
 contrato REST pode ser migrado para um banco relacional em uma etapa posterior sem alterar
 a interface.
+
+
+## Arquitetura
+
+```text
+Frontend HTML/CSS/JS
+         ↓
+API REST com Express
+         ↓
+Camada de armazenamento
+         ↓
+Arquivo JSON local
+```
+
+A versão pública inicia com uma base vazia. Os dados criados durante a execução ficam no arquivo local.
+
+## Licença
+
+Distribuído sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE).
