@@ -3,7 +3,7 @@
 Aplicação full-stack de controle financeiro de viagens: um **dashboard** que reproduz a
 tela de referência do projeto e um **backend REST** completo com CRUD para todos os
 recursos. Frontend em HTML/CSS/JS puro (sem framework), backend em Node.js + Express e
-persistência local em arquivo JSON.
+persistência local em arquivo JSON. A versão pública começa com uma base vazia para não expor informações pessoais, financeiras ou de viagem.
 
 ## Stack
 
